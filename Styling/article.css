@@ -1,0 +1,131 @@
+
+
+
+
+
+
+
+
+
+#lineBelowArticle {
+	margin: 30px 0px;
+	border: 1.5px solid #f27d0c;
+	transition: all 0.5s ease;
+}
+
+@media screen and (max-width: 950px) and (min-width: 600px) {
+
+
+
+	#lineBelowArticle {
+		margin-top:  40px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.mainBody {
+		margin: 20px;
+	}
+
+
+	#lineBelowArticle {
+		margin-top:  40px;
+	}
+
+}
+
+
+
+
+/* The css part of the main article section extends from here*/
+
+#mainArticle {
+	width: 100%;
+	min-height: 200px;
+	overflow: hidden;
+}
+
+
+@media only screen and (max-width: 650px) {
+	#articleHeading {
+		font-size: 30px;
+	}
+
+	#articleSubHeading {
+		font-size: 22px;
+	}
+
+	#date {
+		font-size: 14px;
+	}
+
+	#mainContent {
+		font-size: 19px;
+		font-family: Source Sans Pro;
+	}
+
+	#mainArticle {
+		width: 100%;
+	}
+
+
+
+	#articleImage {
+		width: 80%;
+		margin-right: 5%;
+		margin-left: 0%;
+	}
+
+}
+
+#articleHeading {
+	font-size: 38px;
+	padding-left: 3%;
+	line-height: 0.9;
+	font-family: Abel;
+	font-weight: bold;
+
+}
+
+#articleSubHeading {
+	font-weight: normal;
+	font-size: 24px;
+	padding-left: 0%;
+}
+
+#date {
+	font-size: 18px;
+	color: #444444;
+	font-weight: normal;
+}
+
+#mainContent {
+	position: relative;
+	text-align: justify;
+	font-family: Abel;
+	font-size: 20px;
+	font-weight: 310;
+	width: 93%;
+	min-height: 200px;
+	padding-left: 3%;
+	padding-right: 4%;
+	overflow: hidden;
+			font-family: Source Sans Pro;
+
+}
+
+#articleImage {
+	border: 40px solid white;
+	width: 70%;
+	float: none;
+	margin-left: 10%;
+	margin-right: 15%;
+}
+
+p {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-right: 50px;
+}
+
+/* till here*/
