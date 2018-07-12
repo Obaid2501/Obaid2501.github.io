@@ -186,20 +186,20 @@
 }
 
 
-/*Below Main Section*/ 
+/*Below Main Section*/
 .belowMainArticle {
 	display: inline-flex;
 }
 
 .leftSide {
-	width: 75%;
+	width: 100%;
 	box-sizing: border-box;
 	height: auto;
 }
 
 .rightSide {
 	margin: 0px 0px 0px 20px;
-	width: 25%;
+	width: 100%;
 	/*border: blue 1px solid;*/
 	box-sizing: border-box;
 	height: auto;
@@ -261,7 +261,7 @@
 
 .email-subscription-container input[type=submit] {
 	margin: 10px 4px;
-	font-size: 16px; 
+	font-size: 16px;
 	color: #fff;
 	border-radius: 0px;
 	border: 0px solid;
@@ -329,7 +329,7 @@
 	}
 
 	.rightSide {
-		margin: 20px 0px; 
+		margin: 20px 0px;
 	}
 }
 

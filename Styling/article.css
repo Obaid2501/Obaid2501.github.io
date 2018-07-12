@@ -128,4 +128,15 @@ p {
 	margin-right: 50px;
 }
 
+#left {
+	width: 75%;
+	display: inline-block;
+}
+
+#right {
+	width: 25%;
+	display: inline-block;
+	float: right;
+	height: inherit;
+}
 /* till here*/
